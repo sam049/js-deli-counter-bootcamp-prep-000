@@ -19,7 +19,7 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     var NumberPlusCustomer = []
-    for (let i = 0, i < line.length, i++) {
+    for (let i = 0; i < line.length; i++) {
       NumberPlusCustomer.push(i+1 + "." + line[i]);
     }
   }
