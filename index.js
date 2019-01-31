@@ -20,9 +20,8 @@ function currentLine(line) {
   } else {
     var NumberPlusCustomer = []
     for (let i = 0, i < line.length, i++) {
-      NumberPlusCustomer.push(i + line[i])
-      return ""
+      NumberPlusCustomer.push(i + "." + line[i]);
     }
   }
-  
+  return 
 }
