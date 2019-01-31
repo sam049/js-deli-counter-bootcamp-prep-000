@@ -9,7 +9,7 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var CurrentlyServing = [];
     for (i=0; i < katzDeliLine.length; i++) {
-      CurrentlyServing.push(i+1);
+      CurrentlyServing.push(katzDeliLine[i+1]);
     }
     return `Currently serving ${CurrentlyServing}.`;
     katzDeliLine.shift();
