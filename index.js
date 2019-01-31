@@ -20,8 +20,8 @@ function currentLine(line) {
   } else {
     var NumberPlusCustomer = []
     for (let i = 0; i < line.length; i++) {
-      NumberPlusCustomer.push(i+1 + "." + line[i]);
+      NumberPlusCustomer.push(i+1 + ". " + line[i]);
     }
   }
-  return "The line is currently: " + NumberPlusCustomer.join(" , ")
+  return "The line is currently: " + NumberPlusCustomer.join(", ")
 }
