@@ -23,5 +23,5 @@ function currentLine(line) {
       NumberPlusCustomer.push(i+1 + "." + line[i]);
     }
   }
-  return "The line is currently: " + NumberPlusCustomer.join
+  return "The line is currently: " + NumberPlusCustomer.join(",")
 }
