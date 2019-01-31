@@ -8,8 +8,8 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var CurrentlyServing = [];
-    for (i=0; i < katzDeliLine.length; i++) {
-      CurrentlyServing.push(katzDeliLine[i+1]);
+    for (let i=0; i < katzDeliLine.length; i++) {
+      CurrentlyServing.push(katzDeliLine[i]);
     }
     return `Currently serving ${CurrentlyServing}.`;
     katzDeliLine.shift();
