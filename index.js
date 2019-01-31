@@ -18,7 +18,11 @@ function currentLine(line) {
   if (line.length < 1) {
     return "The line is currently empty."
   } else {
-    
+    var NumberPlusCustomer = []
+    for (let i = 0, i < line.length, i++) {
+      NumberPlusCustomer.push(i + line[i])
+      return ""
+    }
   }
   
 }
