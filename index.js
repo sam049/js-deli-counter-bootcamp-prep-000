@@ -14,4 +14,8 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine(katzDeliLine)
+function currentLine(line) {
+  if (line.length < 1) {
+    return ""
+  }
+}
