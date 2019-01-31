@@ -23,5 +23,5 @@ function currentLine(line) {
       NumberPlusCustomer.push(i+1 + "." + line[i]);
     }
   }
-  return  
+  return "The line is currently: "  
 }
